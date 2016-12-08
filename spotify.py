@@ -15,8 +15,8 @@ import urllib
 reload(sys)
 sys.setdefaultencoding("utf-8")
 
-Token = ''
-owner = '184018132'
+Token = '302075657:AAGCxYY8TuDzOXaWFIi0jw-wbZlXyGUhzUs'
+owner = '283875167'
 bot = telebot.TeleBot(Token)
 
 @bot.message_handler(commands=['start', 'help'])
